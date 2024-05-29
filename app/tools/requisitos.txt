@@ -1,0 +1,9 @@
+1. Crear el repositorio en github
+2. Crear post, get. put, delete
+3. Crear base de datos y guardarla en el proyecto 
+5. Crear el collage y guardarlo en el proyecto
+6. No montar el folder de node_modules 
+7. constrir el distribuidor -- distribuidor dist
+8. Sacr apuntes
+9. El ultimo commit se llama "entrega final 2"
+10. subr todas las conciones y subir el repositorio
