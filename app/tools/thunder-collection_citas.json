@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "citas",
+    "collectionId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+    "dateExported": "2024-05-29T13:35:22.745Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "212964aa-6a67-4a81-ace8-4b604856e7e2",
+            "colId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/api/cita/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-23T13:27:30.412Z",
+            "modified": "2024-05-29T13:08:26.185Z",
+            "headers": []
+        },
+        {
+            "_id": "e59ff19a-d5b2-473e-90f2-a7b14376c0ce",
+            "colId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/api/cita",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-23T13:38:37.365Z",
+            "modified": "2024-05-29T13:08:26.184Z",
+            "headers": []
+        },
+        {
+            "_id": "93ca2acf-f687-4414-b649-291fb84ca03c",
+            "colId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/api/cita",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-23T13:39:08.051Z",
+            "modified": "2024-05-29T13:27:50.024Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"otorrino\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1c1e6b63-9571-430c-ab89-6639b183da34",
+            "colId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/api/cita",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-23T13:39:42.931Z",
+            "modified": "2024-05-29T13:31:34.497Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 2,\n  \"nombre\": \"terapia\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "02854a48-6ee1-47e3-922b-6d77008b3b52",
+            "colId": "9a1d33b1-194b-4afa-a663-eeb7410a0d96",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/api/cita",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-23T13:40:06.059Z",
+            "modified": "2024-05-29T13:34:05.950Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 7\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "28_4JK822gjy0I6Z4i1FxVSRMfKIs-DwY5FSGSao-Rieh7Ln8_-tc36yT9Kdaen6yud5B8atV-b4Ixqdlry4Hg"
+}
