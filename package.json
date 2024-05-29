@@ -1,0 +1,27 @@
+{
+  "name": "recuperacionvictoria",
+  "version": "1.0.0",
+  "description": "recuperacion examen",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recuperacion-examen-victoria/recuperacion-victoria-examen.git"
+  },
+  "author": "Victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recuperacion-examen-victoria/recuperacion-victoria-examen/issues"
+  },
+  "homepage": "https://github.com/recuperacion-examen-victoria/recuperacion-victoria-examen#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
